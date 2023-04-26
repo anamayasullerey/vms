@@ -32,5 +32,7 @@ cmake .
 make
 ./DisplayVideo
 ```
+## Python
+```
 python3 display_video.py
 ```
