@@ -9,30 +9,32 @@ This includes (key parts):
 # Building the image
 
 ```
-make build
+sudo make build
 ```
 
 # Running the image
 
 ```
-make run
+sudo make run
 ```
 
 # Attaching a bash shell
 
 ```
-make attach
+sudo make attach
 ```
 
 # Testing the image
 Run basic camera capture application (press 'q' to quit)
 ## C++
 ```
+cd /proj/test_video/cpp
 cmake .
 make
 ./DisplayVideo
 ```
 ## Python
 ```
+cd /proj/test_video/python
 python3 display_video.py
 ```
